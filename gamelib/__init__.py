@@ -1,6 +1,7 @@
 import pygame, sys
 
-from gamelib import setup, main
+from gamelib import main
 
 def run():
-    
+    pygame.init()
+    main.main()
